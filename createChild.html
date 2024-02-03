@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kids Reward App</title>
+        <link rel="stylesheet" href="styles/foundation.css">
+        <link rel="stylesheet" href="styles/app.css">
+    </head>
+    <body>
+
+       <!--Header for logo, menus here-->
+       <header class="grid-container">
+            <section class="grid-x">
+                <div class="cell large-2 medium-3 small-2">
+                    <div>
+                        <a href="home.html">
+                            <img src="img/logo.png" alt="kids app reward logo">
+                        </a>
+                    </div>
+                </div>
+
+                <nav class="cell large-6 medium-6 small-6">
+                    <ul>
+                        <li>Home</li>
+                        <li>Task</li>
+                        <li>reward</li>
+                    </ul>    
+                </nav>
+
+                <nav class="cell large-4 medium-3 small-4">
+                    <a href="#">
+                        <img src="img/hamburger.png" alt="settings menu">
+                    </a>
+                    <a href="#">
+                        <img src="img/notification.png" alt="settings menu">
+                    </a>
+                    <a href="#">
+                        <img src="img/profile.png" alt="settings menu">
+                    </a>
+                </nav>
+            </section>
+        </header>
+
+         <!--Body-->
+        <main class="grid-container">
+            <section class="grid-x">
+                <div class="cell">
+                    <h1>Add Child</h1>
+                </div>
+            </section>
+
+            <section>
+                <form>
+                    <div class="grid-x grid-padding-x">
+                      <div class="large-6 cell">
+                        <label for="Child Name">Input Label
+                          <input type="text" placeholder="Child Name">
+                        </label>
+                      </div>
+                      <div class="large-6 cell">
+                        <label for="gender">Gender</label>
+                        <select name="gender-dropdown">
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                      </div>
+                    </div>
+                </form>
+            </section>   
+            
+            <section>
+                <form>
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-4 medium-4 small-4 cell">
+                            <label for="day">Day</label>
+                            <select name="day-dateOfBirth">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                          
+                        </div>
+                        <div class="large-4 medium-4 small-4 cell">
+                            <label for="month">Month</label>
+                            <select name="month-dateOfBirth">
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                            </select> 
+                        </div>
+                        <div class="large-4 medium-4 small-4 cell">
+                            <label for="day">Year</label>
+                            <select name="day-dateOfBirth">
+                                <option value="1">2000</option>
+                                <option value="2">2001</option>
+                                <option value="3">2002</option>
+                                <option value="4">2003</option>
+                                <option value="5">2004</option>
+                            </select>
+                        </div>
+                        <div class="cell large-12">
+                            <h2>Choose Avater</h2>
+                            <div>
+                                <label for="image-file">Select an image to upload:</label>
+                                <input type="file" id="image-file" name="image-file">
+                            </div>
+                        </div>
+                        <div class="cell large-12">
+                            <h3>Or select avatar</h3>
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 1</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 2</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 3</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 4</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 5</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                        <div class=" cell large-2 medium-2 small-2">
+                            <label for="example-checkbox">Avatar 6</label>
+                            <input type="checkbox" id="example-checkbox" name="example-checkbox">
+                        </div>
+                    </div>
+
+                    <div class="cell large-12">
+                        <input type="submit" value="Add Child">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer class="grid-container">
+            <section class="grid-x">
+                <nav class="cell large-6 medium-6">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Program Policies</a></li>
+                    </ul>
+                </nav>
+
+                <div class="cell large-6 medium-6">
+                    <p>Kids Reward App @ 2024</p>
+                </div>
+            </section>
+        </footer>
+        
+          
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
